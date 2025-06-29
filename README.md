@@ -1,12 +1,12 @@
-# 🧩 Jogo com Tilemap Isométrico em C++ e OpenGL
+# Jogo com Tilemap Isométrico em C++ e OpenGL
 
 Este é um projeto de jogo 2D com visual isométrico desenvolvido em **C++**, utilizando as bibliotecas **OpenGL**, **GLFW**, **GLEW** e **GLM**. O jogador pode se movimentar por tiles, coletar moedas, evitar armadilhas (lava), e alcançar um tile de vitória.
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 
 
-## 🚀 Requisitos
+## Requisitos
 
 Antes de compilar, certifique-se de ter as seguintes bibliotecas instaladas:
 
@@ -29,14 +29,14 @@ g++ main.cpp SpriteAnimado.cpp TileMap.cpp CharacterController.cpp -o jogo.exe ^
   -lglew32 -lglfw3 -lopengl32 -lgdi32 -Iinclude
 ```
 
-## ▶️ Execução
+## Execução
 
 Após compilar, basta executar:
 
 ```bash
 jogo.exe   # No Windows
 ```
-## 🎮 Controles
+## Controles
 
 A movimentação é baseada em diagonais isométricas com as seguintes teclas:
 
@@ -48,7 +48,7 @@ Z S C
 
 Cada tecla move o personagem em uma das 8 direções possíveis.
 
-## 🧠 Lógica do Jogo
+## Lógica do Jogo
 
 - **Objetivo:** Coletar o máximo de moedas (`tile 0`) e alcançar o tile de vitória (`tile 6`) sem morrer.
 - **Perigo:** Se o jogador pisar em um `tile 3` (lava), morre e reinicia.
@@ -56,7 +56,7 @@ Cada tecla move o personagem em uma das 8 direções possíveis.
 - A posição inicial é o tile `5`.
 
 
-## 📦 Dependências
+## Dependências
 
 O projeto utiliza:
 
@@ -65,7 +65,7 @@ O projeto utiliza:
 - [`GLEW`](http://glew.sourceforge.net/) para funções OpenGL modernas
 - [`GLM`](https://glm.g-truc.net/) para operações com matrizes e vetores
 
-## 👨‍💻 Autores
+## Autores
 
 Trabalho desenvolvido por:
 
