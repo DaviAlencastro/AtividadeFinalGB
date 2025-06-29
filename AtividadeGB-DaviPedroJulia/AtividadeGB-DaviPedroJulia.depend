@@ -1,0 +1,68 @@
+# depslib dependency file v1.0
+1751130462 source:c:\users\davi\documentos\opengl\atividadegb-davipedrojulia\spriteanimado.cpp
+	"SpriteAnimado.h"
+	"include/stb_image.h"
+	<iostream>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+
+1750727519 c:\users\davi\documentos\opengl\atividadegb-davipedrojulia\spriteanimado.h
+	<GL/glew.h>
+	<glm/glm.hpp>
+	<string>
+
+1751130629 source:c:\users\davi\documentos\opengl\atividadegb-davipedrojulia\charactercontroller.cpp
+	"CharacterController.h"
+	<iostream>
+
+1751059928 c:\users\davi\documentos\opengl\atividadegb-davipedrojulia\charactercontroller.h
+	"SpriteAnimado.h"
+	"TileMap.h"
+	<GLFW/glfw3.h>
+
+1751117847 source:c:\users\davi\documentos\opengl\atividadegb-davipedrojulia\tilemap.cpp
+	"TileMap.h"
+	<fstream>
+	<sstream>
+	<iostream>
+	"include/stb_image.h"
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+
+1751063870 c:\users\davi\documentos\opengl\atividadegb-davipedrojulia\tilemap.h
+	<GL/glew.h>
+	<glm/glm.hpp>
+	<string>
+	<vector>
+
+1748987909 c:\users\davi\documentos\opengl\atividadegb-davipedrojulia\include\stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1751059292 source:c:\users\davi\documentos\opengl\atividadegb-davipedrojulia\main.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	"TileMap.h"
+	"CharacterController.h"
+	<iostream>
+
+1751052799 c:\users\davi\documentos\opengl\atividadegb-davipedrojulia\itemvisual.h
+	<GL/glew.h>
+	<glm/glm.hpp>
+	<string>
+
