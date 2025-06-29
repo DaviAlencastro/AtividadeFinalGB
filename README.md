@@ -2,10 +2,6 @@
 
 Este é um projeto de jogo 2D com visual isométrico desenvolvido em **C++**, utilizando as bibliotecas **OpenGL**, **GLFW**, **GLEW** e **GLM**. O jogador pode se movimentar por tiles, coletar moedas, evitar armadilhas (lava), e alcançar um tile de vitória.
 
-## Estrutura do Projeto
-
-
-
 ## Requisitos
 
 Antes de compilar, certifique-se de ter as seguintes bibliotecas instaladas:
@@ -18,7 +14,7 @@ Antes de compilar, certifique-se de ter as seguintes bibliotecas instaladas:
 
 No Windows, recomenda-se usar um ambiente como MinGW ou MSVC e configurar as bibliotecas manualmente.
 
-## 🛠️ Compilação
+## Compilação
 
 ### Windows (MinGW, usando g++)
 
